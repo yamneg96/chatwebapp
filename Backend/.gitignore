@@ -1,2 +1,62 @@
+# Dependency Directory
+# --------------------
+# Node.js project modules
 node_modules
-*.env
+
+# Logs
+# ----
+# Crash logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment Variables & Keys
+# ----------------------------
+# Keep your secrets and configurations out of source control!
+.env
+.env.*
+.DS_Store
+*.pem
+*.key
+*.crt
+
+# Build Output
+# ------------
+# Compiled JavaScript or TypeScript files
+/dist
+/build
+/out
+
+# Operating System Files
+# ----------------------
+# macOS
+.DS_Store
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor Files
+# --------------------
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+
+# Testing/Coverage
+# ----------------
+/coverage
+
+# Temporary/Cache Files
+# ---------------------
+*.tmp
+*.bak
+*~
