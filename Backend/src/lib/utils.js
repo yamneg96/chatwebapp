@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken"
 
 export const generateToken = (userId, res) => {
-  const token = jwt.sign({userId}, process.env.JWT_SECRET, { //jwt.sign took 3 params.
+  const token = jwt.sign({userId}, process.env.JWT_SECRET, { //jwt.sign took 3 params. Obviously the userId is inside the token somehow.
     expiresIn: "7d"
   })
 
