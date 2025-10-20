@@ -93,10 +93,11 @@ This project is actively being developed. Here's a look at what's coming next!
 
 | Feature | Status | Priority |
 | :--- | :---: | :---: |
-| Basic Real-Time Text Messaging | ✅ | High |
 | User Registration & Login | ✅ | High |
-| Creating/Joining Channels | ✅ | High |
-| **File and Media Sharing** | ⏳ | Medium |
+| Basic sending and receiving Text Messages | ✅ | High |
+| **File and Media Sharing** | ✅ | Medium |
+| Basic Real-Time Text Messaging | ⏳ | High |
+| Creating/Joining Channels | ⏳ | High |
 | **Group Chat Functionality** | ⏳ | Medium |
 | **"User is Typing..." Indicator** | ⏳ | Medium |
 | **Dark Mode Toggle** | ⬜ | Low |
