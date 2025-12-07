@@ -18,7 +18,7 @@ const Accessibility = () => {
             Commitment to Standards
           </h2>
           <p className="text-base-content/80">
-            We strive to make the NYDev Course Chat System accessible to all users, adhering as closely as possible to the **Web Content Accessibility Guidelines (WCAG) 2.1 Level AA**.
+            We strive to make the NYDev Course Chat System accessible to all users, adhering as closely as possible to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA.
           </p>
         </section>
 
@@ -27,10 +27,10 @@ const Accessibility = () => {
             <Lightbulb className="size-6 text-accent" /> Key Features
           </h2>
           <ul className="list-disc list-inside space-y-2 text-base-content/70 ml-4">
-            <li>**Keyboard Navigation:** All interactive elements are reachable and operable using only the keyboard.</li>
-            <li>**High Contrast:** The color palette ensures sufficient contrast between text and background.</li>
-            <li>**Screen Reader Compatibility:** Elements utilize proper ARIA labels and semantic HTML for effective interpretation by screen readers.</li>
-            <li>**Resizable Text:** Users can adjust font size up to 200% without loss of content or functionality.</li>
+            <li>Keyboard Navigation: All interactive elements are reachable and operable using only the keyboard.</li>
+            <li>High Contrast: The color palette ensures sufficient contrast between text and background.</li>
+            <li>Screen Reader Compatibility: Elements utilize proper ARIA labels and semantic HTML for effective interpretation by screen readers.</li>
+            <li>Resizable Text: Users can adjust font size up to 200% without loss of content or functionality.</li>
           </ul>
         </section>
 
