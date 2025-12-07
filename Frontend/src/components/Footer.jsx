@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter, Linkedin, Github, MessageSquare, BookOpen, Users } from 'lucide-react';
+import { Twitter, Linkedin, Github, MessageSquare, BookOpen, Users, Instagram, Youtube, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -56,24 +56,38 @@ export default function Footer() {
             <div className="social-links flex gap-4">
               <a 
                 className="p-2 rounded-full bg-base-content/10 text-base-content/70 hover:bg-primary hover:text-white transition-colors duration-200" 
-                href="#twitter" 
-                aria-label="Course Twitter"
+                href="https://www.instagram.com/nydevofficial/" 
+                aria-label="Course Instagram"
               >
-                <Twitter size={20} />
+                <Instagram size={20} />
               </a>
               <a 
                 className="p-2 rounded-full bg-base-content/10 text-base-content/70 hover:bg-primary hover:text-white transition-colors duration-200" 
-                href="#linkedin" 
+                href="https://www.linkedin.com/in/nydev-company-43827a399/" 
                 aria-label="Course LinkedIn"
               >
                 <Linkedin size={20} />
               </a>
               <a 
                 className="p-2 rounded-full bg-base-content/10 text-base-content/70 hover:bg-primary hover:text-white transition-colors duration-200" 
-                href="#github" 
+                href="https://t.me/nydevlearn" 
+                aria-label="Course Telegram"
+              >
+                <Send size={20} />
+              </a>
+              <a 
+                className="p-2 rounded-full bg-base-content/10 text-base-content/70 hover:bg-primary hover:text-white transition-colors duration-200" 
+                href="https://github.com/NY-Development" 
                 aria-label="Course GitHub Repo"
               >
                 <Github size={20} />
+              </a>
+              <a 
+                className="p-2 rounded-full bg-base-content/10 text-base-content/70 hover:bg-primary hover:text-white transition-colors duration-200" 
+                href="https://www.youtube.com/@NYDev-t6p"
+                aria-label="Course YouTube Video"
+              >
+                <Youtube size={20} />
               </a>
             </div>
           </div>
