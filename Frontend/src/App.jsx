@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import {Routes, Route, Navigate} from "react-router-dom";
 import HomePage from "./pages/HomePage"
 import SignUpPage from "./pages/SignUpPage"
@@ -37,7 +38,7 @@ const App = () => {
         <Route path="/setting" element={<SettingPage />} />
         <Route path="/profile" element={authUser ? <ProfilePage /> : <Navigate to="/login" />} />
       </Routes>
-
+      <Footer />
       <Toaster
         position="top-right"
         reverseOrder={false}

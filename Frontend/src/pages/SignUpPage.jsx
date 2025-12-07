@@ -13,6 +13,7 @@ const SignUpPage = () => {
     email: "",
     password: "",
   });
+  const name = "NYDLC"
 
   const {signup, isSigningUp} = useAuthStore();
 
@@ -135,7 +136,7 @@ const SignUpPage = () => {
 
       {/* Right Side */}
       <AuthImagePattern 
-        title="Join NYDev Community"
+        title={`Join ${name} Community`}
         subtitle="Connect with our learners, share moments, and stay in touch with your friends."
       />
     </div>

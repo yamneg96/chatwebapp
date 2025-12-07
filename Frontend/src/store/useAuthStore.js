@@ -33,5 +33,7 @@ export const useAuthStore = create((set) => ({ //We will take initial setter fun
     } finally{
       set({isSigningUp: false});
     }
-  }
+  },
+
+  // @2:06:00
 }))
